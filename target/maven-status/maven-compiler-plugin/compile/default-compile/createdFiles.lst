@@ -1,0 +1,5 @@
+pages\LandingPage.class
+pages\ShoppingCartPage.class
+pages\BooksPage.class
+utility\Utilities.class
+pages\AddToCartPage.class

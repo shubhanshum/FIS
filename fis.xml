@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EndToEndFlowSuite" verbose="1">
+	<test name="ProductTestOnChrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="url" value="https://www.ebay.com/" />
+		<classes>
+			<class name="tests.ProductAddedTest" />
+		</classes>
+	</test>
+</suite>
